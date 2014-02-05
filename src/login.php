@@ -15,7 +15,7 @@ class login
         include "config.php";
         $this->user             =    $username;
         $this->post_password    =    $password;
-        $this->query            =    mysql_query("SELECT * FROM users WHERE username = '".$this->user."'");
+        $this->query            =    mysql_query("SELECT * FROM usuario WHERE usuario = '".$this->user."'");
         $this->mysql_password   =    mysql_fetch_array($this->query);
         $this->numrows          =    mysql_num_rows($this->query);
         $this->error            =    "Nombre de usuario o password incorrectos.";
@@ -28,7 +28,7 @@ class login
         {
             if($this->numrows !=0)
             {
-                if($this->mysql_password['password'] == md5($this->post_password))
+                if($this->mysql_password['contrasena'] == md5($this->post_password))
                 {
                     session_start();
                     $_SESSION['username'] = $this->user;

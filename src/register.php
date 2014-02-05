@@ -24,7 +24,7 @@ class register
         $this->repassword   =    $repeatpassword;
         $this->email        =    $email;
         $this->fullname     =    $fullname;
-        $this->query        =    mysql_query("SELECT * FROM users WHERE username = '".$this->username."'");
+        $this->query        =    mysql_query("SELECT * FROM usuario WHERE usuario = '".$this->username."'");
         $this->numrows      =    mysql_num_rows($this->query);
         $this->error        =    "Nombre de usuario en uso.";
         $this->error2       =    "Las contraseñas no coinciden";
@@ -33,6 +33,7 @@ class register
         $this->ok           =    "Te has registrado correctamente";
         $this->fields       =    "Por favor, rellena todos los campos.";
     }
+
     public function check()
     {
         if($this->numrows!=0)
@@ -56,7 +57,7 @@ class register
                     else
                     {
                         $this->password = md5($this->password);
-                        $register = mysql_query("INSERT INTO `users` (`id`, `fullname`, `username`, `password`, `email`, `admin`) VALUES (NULL, '".$this->fullname."', '".$this->username."', '".$this->password."', '".$this->email."', '0')");
+                        $register = mysql_query("INSERT INTO `usuario` (`id_usuario`, `nombre_completo`, `usuario`, `contrasena`, `email`, `admin`) VALUES (NULL, '".$this->fullname."', '".$this->username."', '".$this->password."', '".$this->email."', '0')");
                         echo $this->ok;
                     }
                 }

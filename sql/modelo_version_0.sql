@@ -60,3 +60,6 @@ CREATE TABLE IF NOT EXISTS mensaje_usuario_conversacion (
 );
 
 #Tablas version 1#
+
+INSERT INTO Conversacion VALUES (1,now(),'1');
+INSERT INTO `usuario_conversacion` (`id_usuario_conversacion`, `id_usuario`, `id_conversacion`, `estado`) VALUES ('1', '1', '1', '1');

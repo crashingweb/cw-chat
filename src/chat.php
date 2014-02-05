@@ -25,6 +25,7 @@ $( document ).ready(function() {
               url: "OperacionesMysql.php",
               data: {method: 'insertar',mensaje: $("#sendMessage").val()},
               success: function(msg){
+                alert(msg);
                 location.href='chat.php';
               }  
             });
