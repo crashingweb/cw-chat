@@ -6,6 +6,10 @@ class OperacionesMysql
 	private $usuario = 'root';
 	private $pass = 'root';
 	private $basedatos = 'chat';
+	
+	/*private $usuario = 'thelions_chat';
+	private $pass = 'thelions_chat';
+	private $basedatos = 'thelions_chat';*/
 
 	public function Conectar(){
 		$con = mysqli_connect($this->servidor,$this->usuario,$this->pass,$this->basedatos) or die('Lo siento, no hay conexión.');
