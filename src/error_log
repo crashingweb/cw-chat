@@ -1,0 +1,28 @@
+[02-Feb-2014 23:10:07] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/thelions/public_html/chat/config.php on line 5
+[02-Feb-2014 23:10:39] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/thelions/public_html/chat/config.php on line 5
+[02-Feb-2014 23:13:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thelions/public_html/chat/login.php:44) in /home/thelions/public_html/chat/login.php on line 56
+[02-Feb-2014 23:26:16] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/thelions/public_html/chat/config.php on line 14
+[02-Feb-2014 23:53:14] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/thelions/public_html/chat/chat.php on line 39
+[02-Feb-2014 23:53:17] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/thelions/public_html/chat/chat.php on line 39
+[02-Feb-2014 23:53:26] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/thelions/public_html/chat/chat.php on line 39
+[02-Feb-2014 23:53:29] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/thelions/public_html/chat/chat.php on line 39
+[02-Feb-2014 23:54:40] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/thelions/public_html/chat/chat.php on line 39
+[02-Feb-2014 23:54:48] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/thelions/public_html/chat/chat.php on line 39
+[02-Feb-2014 23:54:52] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/thelions/public_html/chat/chat.php on line 39
+[02-Feb-2014 23:54:55] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/thelions/public_html/chat/chat.php on line 39
+[02-Feb-2014 23:54:56] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/thelions/public_html/chat/chat.php on line 39
+[02-Feb-2014 23:57:55] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/thelions/public_html/chat/chat.php on line 41
+[03-Feb-2014 00:06:06] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/thelions/public_html/chat/OperacionesMysql.php on line 12
+[03-Feb-2014 00:06:34] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/thelions/public_html/chat/OperacionesMysql.php on line 18
+[03-Feb-2014 00:06:40] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/thelions/public_html/chat/OperacionesMysql.php on line 18
+[03-Feb-2014 00:26:49] PHP Fatal error:  Class 'Mensaje' not found in /home/thelions/public_html/chat/OperacionesMysql.php on line 33
+[03-Feb-2014 00:26:57] PHP Fatal error:  Class 'Mensaje' not found in /home/thelions/public_html/chat/OperacionesMysql.php on line 33
+[03-Feb-2014 00:32:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thelions/public_html/chat/chat.php:14) in /home/thelions/public_html/chat/chat.php on line 26
+[03-Feb-2014 00:33:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thelions/public_html/chat/chat.php:14) in /home/thelions/public_html/chat/chat.php on line 26
+[03-Feb-2014 00:33:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thelions/public_html/chat/chat.php:14) in /home/thelions/public_html/chat/chat.php on line 26
+[03-Feb-2014 00:33:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thelions/public_html/chat/chat.php:14) in /home/thelions/public_html/chat/chat.php on line 26
+[03-Feb-2014 00:33:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thelions/public_html/chat/chat.php:14) in /home/thelions/public_html/chat/chat.php on line 26
+[03-Feb-2014 00:34:20] PHP Fatal error:  Class 'Mensaje' not found in /home/thelions/public_html/chat/OperacionesMysql.php on line 33
+[03-Feb-2014 00:35:20] PHP Fatal error:  Class 'Mensaje' not found in /home/thelions/public_html/chat/OperacionesMysql.php on line 33
+[03-Feb-2014 00:35:55] PHP Fatal error:  Class 'Mensaje' not found in /home/thelions/public_html/chat/OperacionesMysql.php on line 33
+[03-Feb-2014 00:36:03] PHP Fatal error:  Class 'Mensaje' not found in /home/thelions/public_html/chat/OperacionesMysql.php on line 33
